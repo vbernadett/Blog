@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 1600px;
+  height: 80px;
+  background-color: ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*első sor - kék header*/
+
+.button{
+  display: inline-block;
+  border-radius: 24px;
+  border: 2px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #6200EA;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 0;
+}
+
+header{
+  width: 1600px;
+  height: 80px;
+  background-color: #6200EA;
+}
+
+.wrapper{
+  width: 1110px;
+  height: 100%;
+  margin: 0 auto;
+  display: table;
+}
+
+.layout{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-subsribe{
+  width: 160px;
+  float: left;
+  margin-right: 27.477%;
+}
+
+.img-logo{
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+}
+
+/*navigációs sor*/
+
+.wrapper-nav{
+  width: 1031px;
+  height: 100%;
+  margin: 0 auto;
+  display: table;
+}
+
+nav a{
+  text-transform: uppercase;
+  color: #211138;
+  font-size: 12px;
+  margin-right: 45px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-list{
+  width: 1600px;
+  height: 80px;
+  background-color: #FFFFFF;
+}
+
+nav a:hover{
+  color: #6200EA;
+  border-bottom: 4px solid blue;
+  padding-bottom: 33.4px;
+}
+
+
